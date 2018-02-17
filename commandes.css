@@ -1,0 +1,47 @@
+h1 {
+	font-family: "8bit";
+	text-align: center;
+	position: relative;	
+	color: white;
+}
+
+body {
+	height: 30em;
+	background: url('bgmenu.jpg') no-repeat center center fixed;  
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+
+@font-face {
+	font-family: "8bit";
+	src: url('8bit.ttf');
+}
+
+h2 {
+	font-family: "8bit";
+	text-align: center;
+	position: relative;
+	color: white;
+	top: 40%
+}
+
+.menu {
+	position: absolute;
+	top: 90%;
+	color: white;
+	animation: h2 1s infinite;
+	left: 2%;
+}
+
+@keyframes h2 {
+    0%{opacity: 1;}
+    50%{opacity: 0;}
+    100%{opacity: 1;}
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+

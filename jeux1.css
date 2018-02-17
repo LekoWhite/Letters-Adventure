@@ -1,0 +1,107 @@
+@font-face {
+	font-family: "8bit";
+	src: url('8bit.ttf');
+}
+
+body {
+background: url('fond1.jpg') no-repeat center center fixed;  
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  font-family: "8bit";
+}
+
+.flechehaut {
+  left: 42%;
+  position: absolute;
+  top: 40%;
+  width: 5%;
+}
+
+.flechegauche {
+  left: 14%;
+  position: absolute;
+  top: 75%;
+  width: 5%;
+}
+
+.flechedroite {
+  left: 82%;
+  position: absolute;
+  top: 65%;
+  width: 5%;
+}
+
+.imgforet {
+  width: 30%;
+  top: 30%;
+  position: absolute;
+  left: 68%;
+  border-style: solid;
+}
+
+.imgplage {
+  position: absolute;
+  width: 40%;
+  left: 25%;
+  border-style: solid;
+}
+
+.imgmontagne {
+  position: absolute;
+  top: 40%;
+  width: 30%;
+  left: 2%;
+  border-style: solid;
+}
+
+.txtforet {
+  position: absolute;
+  width: 50%;
+  top: 85%;
+  left: 30%;
+  font-size: 15px;
+}
+
+.flechedroite ~ .txtforet {
+  visibility: hidden;
+}
+
+.flechedroite:hover ~ .txtforet {
+  visibility: visible;
+}
+
+.txtplage {
+  position: absolute;
+  width: 50%;
+  top: 85%;
+  left: 30%;
+  font-size: 15px;
+}
+
+.flechehaut ~ .txtplage {
+  visibility: hidden;
+}
+
+.flechehaut:hover ~ .txtplage {
+  visibility: visible;
+}
+
+.txtmontagne {
+  position: absolute;
+  width: 50%;
+  top: 85%;
+  left: 30%;
+  font-size: 15px;
+}
+
+.flechegauche ~ .txtmontagne {
+  visibility: hidden;
+}
+
+.flechegauche:hover ~ .txtmontagne {
+  visibility: visible;
+}
+
+
+
